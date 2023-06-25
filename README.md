@@ -33,7 +33,7 @@ cle_response = requests.get(cle_url)
 cle_data = cle_response.json()
 print(cle_data.keys())
 print("__________________________")
-print(cle_data.items())
+print(cle_data.items())`
 
-for cle_artworks in cle_data['data']:
+`for cle_artworks in cle_data['data']:
     print(cle_artworks['tombstone'])`
