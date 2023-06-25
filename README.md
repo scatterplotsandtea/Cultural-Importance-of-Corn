@@ -27,13 +27,13 @@ This project was great for leveling up my skills. This was the first time I spli
 
 Here is the code I used when I was starting my project:
 
-`import requests
-cle_url = "https://openaccess-api.clevelandart.org/api/artworks/?q=corn"
-cle_response = requests.get(cle_url)
-cle_data = cle_response.json()
-print(cle_data.keys())
-print("__________________________")
-print(cle_data.items())`
+`import requests`
+`cle_url = "https://openaccess-api.clevelandart.org/api/artworks/?q=corn"`
+`cle_response = requests.get(cle_url)`
+`cle_data = cle_response.json()`
+`print(cle_data.keys())`
+`print("__________________________")`
+`print(cle_data.items())`
 
 `for cle_artworks in cle_data['data']:
     print(cle_artworks['tombstone'])`
